@@ -1,0 +1,61 @@
+@media only screen and (min-width: 34em) {
+    div.head {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr .5fr;
+        margin-left: 25px;
+        margin-right: 50px;
+    }
+	.navigation {
+		text-align: center;
+		padding: 10px 0;
+	}
+	.social{
+		padding: 10px 0;
+	}
+	#logo {
+		float: left;
+		margin-left: 10px;
+	}
+	div.home {
+		grid-template-columns: 1fr;
+		grid-template-rows: .75fr .2fr .5fr .5fr;
+		grid-column-gap: 1em;
+		grid-row-gap: 1em;
+	}
+	.hero {
+		grid-column: 1;
+	}
+    .certification {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+	/* section.rental{
+		display: block;
+		text-align: center;
+		background-color: var(--light2);
+		border-radius: 20px;
+		grid-column: 1;
+		grid-row: 3;
+	}
+	
+	section.rental p{
+		color: var(--light);
+		border-radius: 20px;
+		padding: 8px;
+	} */
+	div.service div{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: .5fr 1fr;
+	}
+	div.service h3{
+		grid-column: 2;
+		grid-row: 1;
+	}
+	div.service p{
+		grid-column: 2;
+		grid-row: 2;
+	}
+
+}
